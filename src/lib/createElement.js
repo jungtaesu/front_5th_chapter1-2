@@ -1,5 +1,5 @@
-import { addEvent } from "./eventManager";
+// import { addEvent } from "./eventManager";
 
-export function createElement(vNode) {}
+// export function createElement(vNode) {}
 
-function updateAttributes($el, props) {}
+// function updateAttributes($el, props) {}

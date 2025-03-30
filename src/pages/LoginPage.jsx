@@ -23,7 +23,7 @@ export const LoginPage = () => {
     <div className="bg-gray-100 flex items-center justify-center min-h-screen">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
         <h1 className="text-2xl font-bold text-center text-blue-600 mb-8">
-          항해플러스1
+          항해플러스
         </h1>
         <form id="login-form" onSubmit={handleSubmit}>
           <input
