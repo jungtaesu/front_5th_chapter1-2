@@ -60,7 +60,7 @@ importers:
         specifier: ^3.4.2
         version: 3.5.3
       vite:
-        specifier: ^6.0.3
+        specifier: ^6.2.3
         version: 6.2.3(yaml@2.7.0)
       vitest:
         specifier: ^2.1.8

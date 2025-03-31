@@ -15,8 +15,8 @@ export function createVNode(type, props, ...children) {
     //여기가 initialValue
   }
 
-  console.log("props:", props);
-  console.log("children:", ...children);
+  // console.log("props:", props);
+  // console.log("children:", ...children);
 
   return { type, props, children: flattenChildren(children) };
 }
