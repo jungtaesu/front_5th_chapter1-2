@@ -57,6 +57,9 @@ children 중에 falsy한 값이 없도록.
     return children.filter((item) => item !== undefined && item !== null && item !== false).reduce((flat, child) => {
 
 
+3.31
+normalizeVNode =>
+
 
 ### 기술적 성장
 <!-- 예시
