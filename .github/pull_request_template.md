@@ -60,6 +60,13 @@ children 중에 falsy한 값이 없도록.
 3.31
 normalizeVNode =>
 
+4.1 ㅇ ㅣ부분이 normalizeVNode의 가장 중요한 부분일수도 기술적으로?
+    return normalizeVNode(vNode.type({
+      ...vNode.props,
+      children: vNode.children,
+    })); // 재귀적으로 정규화
+
+
 
 ### 기술적 성장
 <!-- 예시
