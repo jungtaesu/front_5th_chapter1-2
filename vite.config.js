@@ -12,7 +12,7 @@ export default mergeConfig(
         jsxFactory: "createVNode",
       },
     },
-    base: "/front_5th_chapter1-2/",
+    // base: "/front_5th_chapter1-2/",
   }),
   defineTestConfig({
     test: {
