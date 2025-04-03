@@ -1,4 +1,4 @@
-// import { addEvent } from "./eventManager";
+import { addEvent } from "./eventManager";
 
 export function createElement(vNode) {
   if (vNode === null || vNode === undefined || typeof vNode === "boolean") {
@@ -42,7 +42,9 @@ export function createElement(vNode) {
       $el.setAttribute("class", value);
     } else if (key.startsWith("on") && typeof value === "function") {
       // 이벤트 처리
-      console.log("이벤트 처리:", key, value);
+      const eventType = key.slice(2).toLowerCase();
+      // 이벤트 등록
+      addEvent($el, eventType, value);
     } else {
       $el.setAttribute(key, value);
     }
