@@ -17,11 +17,7 @@ export const Post = ({
   // let activationLike = false;
   const handleButtonClick = () => {
     if (loggedIn) {
-      console.log("here");
-      console.log("id:", id);
-      console.log("activationLike:", activationLike);
       changeFavorite(id);
-      console.log("likeUsers:", likeUsers);
     } else if (!loggedIn) {
       alert("로그인 후 이용해주세요");
     }
